@@ -1,0 +1,7 @@
+---
+applications:
+- name: bolivi-engine
+  memory: 512M
+  instances: 1
+  command: node index.js
+  buildpack: nodejs_buildpack
